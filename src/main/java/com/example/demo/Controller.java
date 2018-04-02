@@ -5,6 +5,10 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.bind.annotation.PathVariable;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileInputStream;
@@ -13,6 +17,8 @@ import java.util.*;
 @RestController
 @RequestMapping(value = "/wordLadder")
 public class Controller {
+
+    protected static Logger logger = LoggerFactory.getLogger(Controller.class);
 
     public static Stack findLadder(String word_1,String word_2,Set dict){
         Stack<String> s1 = new Stack<String>();
@@ -191,6 +197,7 @@ public class Controller {
                             strb.append(" ");
                         }
                         String ss = strb.toString();
+                        logger.debug("访问Wordladder.Path={}",ss);
                         return ss;
                     }
                 }
