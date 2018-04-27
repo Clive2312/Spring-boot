@@ -1,0 +1,5 @@
+2018-04-02 10:47:27,071 INFO (StartupInfoLogger.java:50)- Starting DemoApplication on XPS-Blah with PID 8656 (C:\Users\clive\IdeaProjects\demo2\target\classes started by clive in C:\Users\clive\IdeaProjects\demo2)
+2018-04-02 10:47:27,075 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.0.RELEASE, Spring v5.0.4.RELEASE
+2018-04-02 10:47:27,078 INFO (SpringApplication.java:652)- No active profile set, falling back to default profiles: default
+2018-04-02 10:47:29,313 INFO (StartupInfoLogger.java:59)- Started DemoApplication in 2.681 seconds (JVM running for 4.122)
+2018-04-02 10:47:42,089 DEBUG (Controller.java:200)- 访问Wordladder.Path=code cote cate date data 
